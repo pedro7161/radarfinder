@@ -13,18 +13,14 @@ export class NavbarComponent {
 
   items = [
     {
-      label: 'File',
-      items: [
-        { label: 'New', icon: 'pi pi-fw pi-plus' },
-        { label: 'Open', icon: 'pi pi-fw pi-download' }
-      ]
+      label: 'Home',
+      routerLink: '/home',
+      icon: 'pi pi-home'
     },
     {
-      label: 'Edit',
-      items: [
-        { label: 'Undo', icon: 'pi pi-fw pi-refresh' },
-        { label: 'Redo', icon: 'pi pi-fw pi-repeat' }
-      ]
+      label: 'Radars',
+      routerLink: '/radars',
+      icon: 'pi pi-fw pi-chart-bar',
     }
   ];
 }
