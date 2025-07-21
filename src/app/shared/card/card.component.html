@@ -1,0 +1,15 @@
+<p-card class="flex flex-col">
+    <ng-template #header>
+        <img alt="Card"  src="{{image()}}" />
+    </ng-template>
+    <ng-template #title> {{district()}} </ng-template>
+    <ng-template #subtitle> {{street()}}</ng-template>
+    <p>
+        {{description()}}
+    </p>
+    <ng-template #footer>
+        <div class="flex gap-4 mt-1">
+            <p-button label="Open Maps"  />
+        </div>
+    </ng-template>
+</p-card>
